@@ -222,9 +222,7 @@ export class FooterSocial extends PolymerElement {
   private organizer = organizer;
   @property({ type: Object })
   private footer = footer;
-  @property({ type: Boolean })
-  private blogNewTab = organizer.blog.startsWith('http');
-
+  
   share(e: PointerEvent) {
     return share(e);
   }
