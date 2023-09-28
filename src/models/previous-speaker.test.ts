@@ -1,4 +1,4 @@
-import data from '../../docs/default-firebase-data.json';
+import data from '../../docs/default-firebase-data-orig.json';
 import { PreviousSpeaker } from './previous-speaker';
 import { allKeys } from './utils';
 

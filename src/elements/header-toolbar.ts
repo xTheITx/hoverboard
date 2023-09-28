@@ -64,7 +64,7 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           height: 32px;
           background-color: var(--default-primary-color);
           transition: background-color var(--animation);
-          -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
+          -webkit-mask: url('/images/organizer-logo.png') no-repeat;
         }
 
         .nav-items {
@@ -153,16 +153,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             on-click="openDrawer"
           ></paper-icon-button>
         </div>
-        <div layout horizontal center flex>
-          <a
-            class="toolbar-logo"
-            href="/"
-            hidden$="[[!viewport.isLaptopPlus]]"
-            layout
-            horizontal
-            title="[[logoTitle]]"
-          ></a>
-        </div>
 
         <paper-tabs
           class="nav-items"
@@ -178,16 +168,11 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
             </paper-tab>
           </template>
 
-          <paper-tab class="signin-tab" on-click="signIn" link hidden$="[[signedIn]]">
-            [[signInText]]
-          </paper-tab>
-
           <a href$="[[ticketUrl]]" target="_blank" rel="noopener noreferrer">
             <paper-button class="buy-button" primary>[[buyTicket]]</paper-button>
           </a>
         </paper-tabs>
 
-        <notification-toggle></notification-toggle>
 
         <paper-menu-button
           class="auth-menu"
@@ -219,11 +204,6 @@ export class HeaderToolbar extends ReduxMixin(PolymerElement) {
           </div>
         </paper-menu-button>
 
-        <paper-icon-button
-          icon="hoverboard:account"
-          on-click="signIn"
-          hidden$="[[isAccountIconHidden(signedIn, viewport.isLaptopPlus)]]"
-        ></paper-icon-button>
       </app-toolbar>
     `;
   }

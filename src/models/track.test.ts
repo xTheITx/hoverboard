@@ -1,4 +1,4 @@
-import data from '../../docs/default-firebase-data.json';
+import data from '../../docs/default-firebase-data-orig.json';
 import { Track } from './track';
 import { allKeys } from './utils';
 

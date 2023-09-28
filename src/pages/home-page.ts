@@ -43,21 +43,22 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <style include="shared-styles flex flex-alignment">
         :host {
           display: block;
-          height: 100%;
+          width: 100%;
         }
 
         hero-block {
+          width: 100%;
           font-size: 24px;
           text-align: center;
         }
 
         .hero-logo {
           --lazy-image-width: 100%;
-          --lazy-image-height: 76px;
+          --lazy-image-height: 152px;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
-          max-width: 240px;
-          max-height: 76px;
+          max-width: 480px;
+          max-height: 152px;
         }
 
         .info-items {
@@ -171,16 +172,14 @@ export class HomePage extends ReduxMixin(PolymerElement) {
             <div class="info-item">[[heroSettings.description]]</div>
           </div>
 
-          <div class="action-buttons" layout horizontal center-justified wrap>
-            <paper-button class="watch-video" on-click="playVideo">
-              <iron-icon icon="hoverboard:movie"></iron-icon>
-              [[viewHighlights]]
-            </paper-button>
-            <paper-button on-click="scrollToTickets" primary invert>
-              <iron-icon icon="hoverboard:ticket"></iron-icon>
-              [[buyTicket]]
-            </paper-button>
-          </div>
+          <a href="https://devfest-auckland-2023.lilregie.com/booking/attendees/new" tabindex="-1">
+            <div class="action-buttons" layout horizontal center-justified wrap>
+              <paper-button primary invert>
+                <iron-icon icon="hoverboard:ticket"></iron-icon>
+                [[buyTicket]]
+              </paper-button>
+            </div>
+          </a>
 
           <div class="scroll-down" on-click="scrollNextBlock">
             <svg
@@ -251,12 +250,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       </template>
       <about-block></about-block>
       <speakers-block></speakers-block>
-      <subscribe-block></subscribe-block>
-      <tickets-block id="tickets-block"></tickets-block>
-      <gallery-block></gallery-block>
       <about-organizer-block></about-organizer-block>
-      <featured-videos></featured-videos>
-      <latest-posts-block></latest-posts-block>
       <map-block></map-block>
       <partners-block></partners-block>
       <footer-block></footer-block>

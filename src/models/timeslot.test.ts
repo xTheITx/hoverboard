@@ -1,4 +1,4 @@
-import data from '../../docs/default-firebase-data.json';
+import data from '../../docs/default-firebase-data-orig.json';
 import { Timeslot } from './timeslot';
 import { allKeys } from './utils';
 

@@ -1,4 +1,4 @@
-import data from '../../docs/default-firebase-data.json';
+import data from '../../docs/default-firebase-data-orig.json';
 import { PartnerGroupData } from './partner-group';
 import { allKeys } from './utils';
 

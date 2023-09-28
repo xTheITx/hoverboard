@@ -57,28 +57,6 @@ export class SubscribeFormFooter extends ReduxMixin(PolymerElement) {
         }
       </style>
 
-      <div class="form-content" layout vertical center>
-        <paper-input
-          id="emailInput"
-          on-touchend="_focus"
-          label="[[subscribeBlock.yourEmail]]"
-          value="{{email}}"
-          required
-          auto-validate$="[[validate]]"
-          error-message="[[subscribeBlock.emailRequired]]"
-          autocomplete="off"
-          disabled="[[subscribed.data]]"
-        >
-          <iron-icon
-            icon="hoverboard:checked"
-            slot="suffix"
-            hidden$="[[!subscribed.data]]"
-          ></iron-icon>
-        </paper-input>
-        <paper-button on-click="subscribe" disabled="[[disabled]]" layout self-end>
-          [[ctaLabel]]
-        </paper-button>
-      </div>
     `;
   }
 
