@@ -100,7 +100,7 @@
     "title": "About",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Auckland brings together world class experts in Android, Web and Cloud technologies to Auckland for a day of sessions and showcases.",
+        "description": "<This is inline: search for 'Interested in VertexAI'>",
         "label": "Explore featured session",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
