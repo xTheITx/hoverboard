@@ -137,7 +137,7 @@
         },
         {
           "name": "Dilum De Silva",
-          "photo": "/images/team/dilum.jpg",
+          "photo": "",
           "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/dilum.jpg?alt=media",
           "socials": [
             {
@@ -148,6 +148,48 @@
           ],
           "order": 9,
           "title": "In absentia organiser"
+        },
+        {
+          "name": "Jess Lowe",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/jess.jpeg?alt=media",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/jess-lowe/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 9,
+          "title": "GDSC Lead"
+        },
+        {
+          "name": "Josiah Bull",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/josiah.jpeg?alt=media",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/josiah-bull/?originalSubdomain=nz",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 9,
+          "title": "GDSC Lead"
+        },
+        {
+          "name": "Sophia Halapchuk",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/sophia.jpeg?alt=media",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/sophia-halapchuk/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 9,
+          "title": "GDSC Lead"
         },
         {
           "name": "John Graves",
