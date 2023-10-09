@@ -44,19 +44,43 @@
         }
       ],
       "order": 1,
-      "title": "Gold Partners"
+      "title": "Gold Sponsors"
     },
     {
       "items": [
         {
           "order": 0,
-          "logoUrl": "https://www.anz.co.nz/content/dam/anzconz/media/logo/logo-anz.svg",
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/anz-logo.png?alt=media",
           "name": "ANZ",
           "url": "https://www.anz.co.nz/"
         }
       ],
-      "order": 1,
-      "title": "General Partner"
+      "order": 2,
+      "title": "General Sponsors"
+    },
+    {
+      "items": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/uoa-logo.png?alt=media",
+          "name": "University of Auckland",
+          "url": "https://www.auckland.ac.nz/en.html"
+        },
+        {
+          "order": 1,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/Logo.png?alt=media",
+          "name": "Auckland Flutter Meetup",
+          "url": "https://www.meetup.com/flutterauckland/"
+        },
+        {
+          "order": 2,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/gdg-wellington.jpg?alt=media",
+          "name": "GDG Wellington",
+          "url": "https://gdg.community.dev/gdg-wellington/"
+        }
+      ],
+      "order": 3,
+      "title": "Partners"
     }
   ],
   "schedule": {
