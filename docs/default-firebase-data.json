@@ -117,7 +117,81 @@
       "title": "Keynote"
     }
   },
-  "speakers": {},
+  "speakers": {
+    "david-rawson": {
+      "bio": "",
+      "company": "ClearPoint",
+      "country": "Auckland, New Zealand",
+      "name": "David Rawson",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/david-rawson.jpg?alt=media",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/d_rawers",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/david-rawson-nz/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 1,
+      "title": "Senior Android Developer"
+    },
+    "katie-barnett": {
+      "bio": "",
+      "company": "Bilue",
+      "country": "Melbourne, Australia",
+      "name": "Katie Barnett",
+      "photo": "",
+      "photoUrl": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/featured_attendees/me_ouBmcLR.jpg",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/KatieBarnett_5",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/katiebarnett5/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 2,
+      "title": "Team Lead"
+    },
+    "konstantin-tchernov": {
+      "bio": "",
+      "company": "GitLab",
+      "country": "Auckland, New Zealand",
+      "name": "Konstantin Tchernov",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQHUQjZDZnlAfA/profile-displayphoto-shrink_800_800/0/1652823661327?e=1702512000&v=beta&t=hjtuBx__6PGSnD6jgMwewc_GrRak_BXdJAfTzTqHvjI",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/k_tcher",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/konstantin-tchernov-35a58b84/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Site Reliability Engineer"
+    }
+
+  },
   "team": [
     {
       "members": [
