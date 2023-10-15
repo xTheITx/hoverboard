@@ -40,7 +40,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
           display: grid;
           grid-template-columns: 1fr;
           grid-gap: 16px;
-          min-height: 80%;
+          min-height: 20%;
         }
 
         .speaker {
@@ -228,7 +228,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
               <h2 class="name">[[speaker.name]]</h2>
               <div class="origin">[[speaker.country]]</div>
 
-              <text-truncate lines="5">
+              <text-truncate lines="1">
                 <div class="bio">[[speaker.bio]]</div>
               </text-truncate>
             </div>

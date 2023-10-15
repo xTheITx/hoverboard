@@ -13,7 +13,7 @@
       "domain": ""
     },
     "schedule": {
-      "enabled": false
+      "enabled": true
     },
     "mailchimp": {
       "dc": "",
@@ -89,15 +89,44 @@
       "dateReadable": "November 12",
       "timeslots": [
         {
-          "endTime": "10:00",
+          "endTime": "11:00",
           "sessions": [
             {
               "items": [
-                "12"
+                "102"
+              ]
+            },
+            {
+              "items": [
+                "112"
               ]
             }
           ],
-          "startTime": "09:00"
+          "startTime": "10:00"
+        },
+        {
+          "endTime": "12:30",
+          "sessions": [
+            {
+              "items": [
+                "103"
+              ]
+            }
+          ],
+          "startTime": "11:30"
+        },
+
+        {
+          "endTime": "15:30",
+          "sessions": [
+            {
+              "items": [
+                "105"
+              ]
+            }
+          ],
+          "startTime": "14:30"
+ 
         }
       ],
       "tracks": [
@@ -111,10 +140,36 @@
     }
   },
   "sessions": {
-    "12": {
-      "description": "",
+
+    "102": {
+      "description": "Explore complex Jetpack Compose AnimatedVisibility and Target Based animations to flip cards and make dialogs expand and contract.",
       "language": "English",
-      "title": "Keynote"
+      "speakers": ["katie-barnett"],
+      "tags": ["Jetpack Compose", "Android"],
+      "title": "Taking Jetpack Compose Animations to the Next Level"
+    },
+    "112": {
+      "description": "Konstantin recently led a team to roll out a new system that operates Auckland's electricity network. Here he takes us through the journey: applying development principles to operational problems, negotiating the right type and level of SLOs, working with tech and non-tech stakeholders to build trust, building a culture of continuous improvement, retrofitting automation onto existing systems, and picking the right type of compromises.",
+      "language": "English",
+      "speakers": ["konstantin-tchernov"],
+      "tags": ["Development"],
+      "title": "Engineering reliability critical infrastructure"
+    },
+    "103": {
+      "description": "Many teams use 2008's Clean Code to teach general software engineering practice to the next generation of Android engineers. But some recent biting criticism of this text leads us to question its place in the canon.<br/><br/>If not Clean Code, then what? A Philosophy of Software Design is a modern primer born from Stanford's famous CS190 course. Let's explore the text's advice as it applies to decomposition into functions and classes in an Android app.<br/><br/>If you're interested in the pedagogy of software engineering, or if you're still learning the principles of software design yourself, this talk will give you a framework to write clean code without writing Clean Code.",
+      "language": "English",
+      "speakers": ["david-rawson"],
+      "tags": ["Architecture"],
+      "title": "A Philosophy of Android Software Design"
+    },
+
+    "105": {
+      "description": "Navigation is fundamental to how we build our Android applications. However, process death and configuration changes put interesting restrictions on what kinds of architectures we can use for navigation compared with other platforms. This often means we end up with: <br/>a) Navigation that lacks strong typing, or navigation that's difficult to use in multi-module projects<br/>b) Navigation logic that is difficult to test in isolation<br/>c) Difficulties sharing data between screens<br/>d) Uncertainty over which layer of the application is really in control of navigation<br/><br/>In this talk, I propose a different way of thinking about navigation on Android, and how navigation architecture should work in general. This approach is simple, scalable and testable. <br/><br/>We will:<br/>* Recap abstract concepts of navigation on Android<br/>* Understand where current navigation approaches struggle<br/>* Explore a different approach to navigation<br/>* Examine practical examples of this approach",
+      "language": "English",
+      "speakers": ["isaac-udy"],
+      "tags": ["Android"],
+      "title": "The Garden Path: A different approach to navigation on Android"
+
     }
   },
   "speakers": {
@@ -189,6 +244,25 @@
       ],
       "order": 3,
       "title": "Site Reliability Engineer"
+    },
+    "isaac-udy": {
+      "bio": "",
+      "company": "ANZx",
+      "country": "Auckland, New Zealand",
+      "name": "Isaac Udy",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQFvWOat7618Hw/profile-displayphoto-shrink_200_200/0/1602669411233?e=1702512000&v=beta&t=O3d6-ywSdckN7hd4T5Kw8AviAUWi7bXdaZsUtSreNqc",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/isaac-udy",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 4,
+      "title": "Android Engineer"
     }
 
   },
