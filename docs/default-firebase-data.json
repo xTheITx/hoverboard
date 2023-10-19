@@ -89,7 +89,7 @@
       "dateReadable": "November 12",
       "timeslots": [
         {
-          "endTime": "11:00",
+          "endTime": "10:45",
           "sessions": [
             {
               "items": [
@@ -105,28 +105,52 @@
           "startTime": "10:00"
         },
         {
-          "endTime": "12:30",
+          "endTime": "11:45",
           "sessions": [
             {
               "items": [
                 "103"
               ]
-            }
-          ],
-          "startTime": "11:30"
-        },
-
-        {
-          "endTime": "15:30",
-          "sessions": [
+            },
             {
               "items": [
-                "105"
+                "113"
               ]
             }
           ],
-          "startTime": "14:30"
- 
+          "startTime": "11:00"
+        },
+        {
+          "endTime": "12:30",
+          "sessions": [
+            {
+              "items": [
+                "104"
+              ]
+            },
+            {
+              "items": [
+                "114"
+              ]
+            }
+          ],
+          "startTime": "11:45"
+        },
+        {
+          "endTime": "17:00",
+          "sessions": [
+            {
+              "items": [
+                "107"
+              ]
+            },
+            {
+              "items": [
+                "117"
+              ]
+            }
+          ],
+          "startTime": "16:30"
         }
       ],
       "tracks": [
@@ -149,11 +173,11 @@
       "title": "Taking Jetpack Compose Animations to the Next Level"
     },
     "112": {
-      "description": "Konstantin recently led a team to roll out a new system that operates Auckland's electricity network. Here he takes us through the journey: applying development principles to operational problems, negotiating the right type and level of SLOs, working with tech and non-tech stakeholders to build trust, building a culture of continuous improvement, retrofitting automation onto existing systems, and picking the right type of compromises.",
+      "description": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle and provide continuous delivery with high quality. Google Cloud offers a wide range of services that can help you implement DevOps practices with your team or app. Learn how to take advantage of a bunch of tools on offer from Google and ship your software faster, and safer.",
       "language": "English",
-      "speakers": ["konstantin-tchernov"],
-      "tags": ["Development"],
-      "title": "Engineering reliability critical infrastructure"
+      "speakers": ["jk-gunnink"],
+      "tags": ["Google Cloud"],
+      "title": "DevOps on Google Cloud in less than 30 minutes"
     },
     "103": {
       "description": "Many teams use 2008's Clean Code to teach general software engineering practice to the next generation of Android engineers. But some recent biting criticism of this text leads us to question its place in the canon.<br/><br/>If not Clean Code, then what? A Philosophy of Software Design is a modern primer born from Stanford's famous CS190 course. Let's explore the text's advice as it applies to decomposition into functions and classes in an Android app.<br/><br/>If you're interested in the pedagogy of software engineering, or if you're still learning the principles of software design yourself, this talk will give you a framework to write clean code without writing Clean Code.",
@@ -162,17 +186,77 @@
       "tags": ["Architecture"],
       "title": "A Philosophy of Android Software Design"
     },
-
-    "105": {
+    "113": {
+      "description": "An introduction to Backend for Frontend pattern and how we are trying to move to a better architecture using the same at Prezzee. The talk explains about the common problem that many organisations face when trying to move from monoliths to micro-services and how having BFFs could be helpful. I also talk about when not to use BFFs and can give a brief overview of how we might implement it in Google Cloud.",
+      "language": "English",
+      "speakers": ["lovee-jain"],
+      "tags": ["Google Cloud"],
+      "title": "BFFs could be your new Best Friends Forever"
+    },
+    "104": {
       "description": "Navigation is fundamental to how we build our Android applications. However, process death and configuration changes put interesting restrictions on what kinds of architectures we can use for navigation compared with other platforms. This often means we end up with: <br/>a) Navigation that lacks strong typing, or navigation that's difficult to use in multi-module projects<br/>b) Navigation logic that is difficult to test in isolation<br/>c) Difficulties sharing data between screens<br/>d) Uncertainty over which layer of the application is really in control of navigation<br/><br/>In this talk, I propose a different way of thinking about navigation on Android, and how navigation architecture should work in general. This approach is simple, scalable and testable. <br/><br/>We will:<br/>* Recap abstract concepts of navigation on Android<br/>* Understand where current navigation approaches struggle<br/>* Explore a different approach to navigation<br/>* Examine practical examples of this approach",
       "language": "English",
       "speakers": ["isaac-udy"],
       "tags": ["Android"],
       "title": "The Garden Path: A different approach to navigation on Android"
-
+    },
+    "114": {
+      "description": "Konstantin recently led a team to roll out a new system that operates Auckland's electricity network. Here he takes us through the journey: applying development principles to operational problems, negotiating the right type and level of SLOs, working with tech and non-tech stakeholders to build trust, building a culture of continuous improvement, retrofitting automation onto existing systems, and picking the right type of compromises.",
+      "language": "English",
+      "speakers": ["konstantin-tchernov"],
+      "tags": ["Development"],
+      "title": "Engineering reliability critical infrastructure"
+    },
+    "107": {
+      "description": "Using the Vertex AI platform to build AI/ML models including Generative AI.",
+      "language": "English",
+      "speakers": ["nakul-gowdra"],
+      "tags": ["AI/ML"],
+      "title": "AI/ML - Vertex AI"
+    },
+    "117": {
+      "description": "Curious about career advancement in software engineering but not keen on the management track? Discover an alternative path: Staff Engineering.<br/><br/>This talk demystifies what it means to be a Staff-level Engineer and how this diverges from traditional Engineering Management roles. The session also offers a firsthand look at the oscillation between engineering and management roles, providing valuable insights for crafting a unique and fulfilling career trajectory.",
+      "language": "English",
+      "speakers": ["annie-vella"],
+      "tags": ["Career"],
+      "title": "Staff Engineering - A Technical Alternative to Management"
     }
   },
   "speakers": {
+    "annie-vella": {
+      "bio": "",
+      "company": "Westpac New Zealand",
+      "country": "Auckland, New Zealand",
+      "name": "Annie Vella",
+      "photo": "",
+      "photoUrl": "https://0.gravatar.com/avatar/59aac0c90aeb44739d1740072cb9a3e18c2e1711c5e66ea9ac3f41a435397464?size=128",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/codefrenzy",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/codefrenzy",
+          "name": "GitHub"
+        },
+        {
+          "icon": "instagram",
+          "link": "https://instagram.com/codefrenzy",
+          "name": "Instagram"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://linkedin.com/in/annievella",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 1,
+      "title": "Distinguished Engineer"
+    },
     "david-rawson": {
       "bio": "",
       "company": "ClearPoint",
@@ -240,10 +324,125 @@
           "icon": "linkedin",
           "link": "https://www.linkedin.com/in/konstantin-tchernov-35a58b84/",
           "name": "LinkedIn"
+        },
+        {
+          "icon": "website",
+          "link": "https://konst.kiwi/",
+          "name": "Website"
         }
       ],
       "order": 3,
       "title": "Site Reliability Engineer"
+    },
+    "oxana-timofeeva": {
+      "bio": "",
+      "company": "",
+      "country": "Auckland, New Zealand",
+      "name": "Oxana Timofeeva",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQG5zwvzva8LWA/profile-displayphoto-shrink_800_800/0/1697175555693?e=1703116800&v=beta&t=CJ3tyMRUmqm2c9R8mleNrKaV7LDUl_0c2TCvDdUlbfc",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/oxananz",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/oxana-timofeeva/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Site Reliability Engineer"
+    },
+    "lovee-jain": {
+      "bio": "",
+      "company": "Prezzee",
+      "country": "Melbourne, Australia",
+      "name": "Lovee Jain",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQGOZ-o0g3KPpg/profile-displayphoto-shrink_800_800/0/1573473046643?e=1703116800&v=beta&t=dFj1ObiFp5R6_Srw1M47mkQ7Zj86WniQwafzf1icAjU",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/LoveeJain",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/loveejain/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Software Engineer"
+    },
+    "kristine-song": {
+      "bio": "",
+      "company": "Google",
+      "country": "South Korea",
+      "name": "Kristine Song",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQFSWid006ru3Q/profile-displayphoto-shrink_800_800/0/1683156005048?e=1703116800&v=beta&t=CHXCbU8JROwM9NneozPNbo5kpv2mW71wzzfx6oEz5xM",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/KristineSong1",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/kristine-song-83a41359/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Program Manager"
+    },
+    "nakul-gowdra": {
+      "bio": "",
+      "company": "Google",
+      "country": "Auckland, New Zealand",
+      "name": "Nakul Gowdra",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQH38Kj_jeanMg/profile-displayphoto-shrink_800_800/0/1680428321067?e=1703116800&v=beta&t=yIoeizgyo5x-61BmT9Mg6m7xgJYKfcrR7-Vlc23IMlk",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/nakul-gowdra/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Lead - Technologist (Digial Natives)"
+    },
+    "jk-gunnink": {
+      "bio": "",
+      "company": "Qoria",
+      "country": "Perth, Australia",
+      "name": "JK Gunnink",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQHTteX0k8jfxQ/profile-displayphoto-shrink_800_800/0/1683007139143?e=1703116800&v=beta&t=GTiySfOaOk4hhvphCPUXYJWX_f9wTqtgbhumONy2F3I",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/jkgunnink/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Engineering Lead"
     },
     "isaac-udy": {
       "bio": "",
@@ -251,7 +450,7 @@
       "country": "Auckland, New Zealand",
       "name": "Isaac Udy",
       "photo": "",
-      "photoUrl": "https://media.licdn.com/dms/image/C5603AQFvWOat7618Hw/profile-displayphoto-shrink_200_200/0/1602669411233?e=1702512000&v=beta&t=O3d6-ywSdckN7hd4T5Kw8AviAUWi7bXdaZsUtSreNqc",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/isaac.jpg?alt=media",
       "pronouns": "",
       "shortBio": "",
       "socials": [
