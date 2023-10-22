@@ -26,6 +26,18 @@
       "items": [
         {
           "order": 0,
+          "logoUrl": "../images/logos/google.svg",
+          "name": "Google",
+          "url": "https://www.google.com.ua/intl/en/about/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/uoa-logo.png?alt=media",
+          "name": "University of Auckland",
+          "url": "https://www.auckland.ac.nz/en.html"
+        },
+        {
+          "order": 2,
           "logoUrl": "https://www.juliusspencer.co.nz/128.png",
           "name": "JSA Limited",
           "url": "https://www.juliusspencer.co.nz"
@@ -36,12 +48,6 @@
     },
     {
       "items": [
-        {
-          "order": 0,
-          "logoUrl": "../images/logos/google.svg",
-          "name": "Google",
-          "url": "https://www.google.com.ua/intl/en/about/"
-        }
       ],
       "order": 1,
       "title": "Gold Sponsors"
@@ -53,6 +59,12 @@
           "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/anz-logo.png?alt=media",
           "name": "ANZ",
           "url": "https://www.anz.co.nz/"
+        },
+        {
+          "order": 1,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/evolza.png?alt=media",
+          "name": "Evolza",
+          "url": "https://evolza.io/"
         }
       ],
       "order": 2,
@@ -77,6 +89,12 @@
           "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/gdg-wellington.jpg?alt=media",
           "name": "GDG Wellington",
           "url": "https://gdg.community.dev/gdg-wellington/"
+        },
+        {
+          "order": 3,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/sot.jpg?alt=media",
+          "name": "Summer of Tech",
+          "url": "https://www.summeroftech.co.nz/"
         }
       ],
       "order": 3,
@@ -287,7 +305,7 @@
       "country": "Melbourne, Australia",
       "name": "Katie Barnett",
       "photo": "",
-      "photoUrl": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/featured_attendees/me_ouBmcLR.jpg",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQHGdPIZLiYELQ/profile-displayphoto-shrink_800_800/0/1575415859802?e=1703721600&v=beta&t=PzgPWSO35Qd5w1hwAX9Q3NwOwDN-nW279RD_4Kl66Iw",
       "pronouns": "",
       "shortBio": "",
       "socials": [
@@ -439,6 +457,16 @@
           "icon": "linkedin",
           "link": "https://www.linkedin.com/in/jkgunnink/",
           "name": "LinkedIn"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/jgunnink",
+          "name": "Twitter"
+        },
+        {
+          "icon": "website",
+          "link": "https://jgunnink.substack.com",
+          "name": "Website"
         }
       ],
       "order": 3,
