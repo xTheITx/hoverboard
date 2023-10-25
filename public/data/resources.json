@@ -77,11 +77,6 @@
           "name": "Call for Papers",
           "url": "https://docs.google.com/forms/d/1X6Z_kDd2KByKFln3_54xYMBfeJDcMvGY8KiUC0ehh7Y/edit?usp=drive_web",
           "newTab": true
-        },
-        {
-          "name": "FAQs",
-          "url": "/faq",
-          "newTab": false
         }
       ]
     }
