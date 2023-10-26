@@ -47,8 +47,7 @@
       "title": "Premium Sponsors"
     },
     {
-      "items": [
-      ],
+      "items": [],
       "order": 1,
       "title": "Gold Sponsors"
     },
@@ -107,6 +106,17 @@
       "dateReadable": "November 12",
       "timeslots": [
         {
+          "endTime": "09:30",
+          "sessions": [
+            {
+              "items": [
+                "101"
+              ]
+            }
+          ],
+          "startTime": "09:00"
+        },
+        {
           "endTime": "10:45",
           "sessions": [
             {
@@ -143,11 +153,6 @@
           "sessions": [
             {
               "items": [
-                "104"
-              ]
-            },
-            {
-              "items": [
                 "114"
               ]
             }
@@ -155,20 +160,58 @@
           "startTime": "11:45"
         },
         {
-          "endTime": "17:00",
+          "endTime": "14:45",
           "sessions": [
             {
               "items": [
-                "107"
+                "106"
               ]
             },
+            {
+              "items": [
+                "116"
+              ]
+            }
+          ],
+          "startTime": "14:00"
+        },
+        {
+          "endTime": "15:30",
+          "sessions": [
             {
               "items": [
                 "117"
               ]
             }
           ],
-          "startTime": "16:30"
+          "startTime": "15:00"
+        },
+        {
+          "endTime": "16:30",
+          "sessions": [
+            {
+              "items": [
+                "108"
+              ]
+            },
+            {
+              "items": [
+                "118"
+              ]
+            }
+          ],
+          "startTime": "15:45"
+        },
+        {
+          "endTime": "18:00",
+          "sessions": [
+            {
+              "items": [
+                "120"
+              ]
+            }
+          ],
+          "startTime": "17:30"
         }
       ],
       "tracks": [
@@ -182,62 +225,138 @@
     }
   },
   "sessions": {
-
+    "101": {
+      "description": "",
+      "language": "English",
+      "speakers": [
+        "christopher-mende"
+      ],
+      "tags": [
+        "Keynote"
+      ],
+      "title": "Keynote"
+    },
     "102": {
       "description": "Explore complex Jetpack Compose AnimatedVisibility and Target Based animations to flip cards and make dialogs expand and contract.",
       "language": "English",
-      "speakers": ["katie-barnett"],
-      "tags": ["Jetpack Compose", "Android"],
+      "speakers": [
+        "katie-barnett"
+      ],
+      "tags": [
+        "Jetpack Compose",
+        "Android"
+      ],
       "title": "Taking Jetpack Compose Animations to the Next Level"
     },
     "112": {
       "description": "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to shorten the systems development life cycle and provide continuous delivery with high quality. Google Cloud offers a wide range of services that can help you implement DevOps practices with your team or app. Learn how to take advantage of a bunch of tools on offer from Google and ship your software faster, and safer.",
       "language": "English",
-      "speakers": ["jk-gunnink"],
-      "tags": ["Google Cloud"],
+      "speakers": [
+        "jk-gunnink"
+      ],
+      "tags": [
+        "Google Cloud"
+      ],
       "title": "DevOps on Google Cloud in less than 30 minutes"
     },
     "103": {
-      "description": "Many teams use 2008's Clean Code to teach general software engineering practice to the next generation of Android engineers. But some recent biting criticism of this text leads us to question its place in the canon.<br/><br/>If not Clean Code, then what? A Philosophy of Software Design is a modern primer born from Stanford's famous CS190 course. Let's explore the text's advice as it applies to decomposition into functions and classes in an Android app.<br/><br/>If you're interested in the pedagogy of software engineering, or if you're still learning the principles of software design yourself, this talk will give you a framework to write clean code without writing Clean Code.",
-      "language": "English",
-      "speakers": ["david-rawson"],
-      "tags": ["Architecture"],
-      "title": "A Philosophy of Android Software Design"
-    },
-    "113": {
       "description": "An introduction to Backend for Frontend pattern and how we are trying to move to a better architecture using the same at Prezzee. The talk explains about the common problem that many organisations face when trying to move from monoliths to micro-services and how having BFFs could be helpful. I also talk about when not to use BFFs and can give a brief overview of how we might implement it in Google Cloud.",
       "language": "English",
-      "speakers": ["lovee-jain"],
-      "tags": ["Google Cloud"],
+      "speakers": [
+        "lovee-jain"
+      ],
+      "tags": [
+        "Google Cloud"
+      ],
       "title": "BFFs could be your new Best Friends Forever"
     },
-    "104": {
-      "description": "Navigation is fundamental to how we build our Android applications. However, process death and configuration changes put interesting restrictions on what kinds of architectures we can use for navigation compared with other platforms. This often means we end up with: <br/>a) Navigation that lacks strong typing, or navigation that's difficult to use in multi-module projects<br/>b) Navigation logic that is difficult to test in isolation<br/>c) Difficulties sharing data between screens<br/>d) Uncertainty over which layer of the application is really in control of navigation<br/><br/>In this talk, I propose a different way of thinking about navigation on Android, and how navigation architecture should work in general. This approach is simple, scalable and testable. <br/><br/>We will:<br/>* Recap abstract concepts of navigation on Android<br/>* Understand where current navigation approaches struggle<br/>* Explore a different approach to navigation<br/>* Examine practical examples of this approach",
+    "113": {
+      "description": "Many teams use 2008's Clean Code to teach general software engineering practice to the next generation of Android engineers. But some recent biting criticism of this text leads us to question its place in the canon.<br/><br/>If not Clean Code, then what? A Philosophy of Software Design is a modern primer born from Stanford's famous CS190 course. Let's explore the text's advice as it applies to decomposition into functions and classes in an Android app.<br/><br/>If you're interested in the pedagogy of software engineering, or if you're still learning the principles of software design yourself, this talk will give you a framework to write clean code without writing Clean Code.",
       "language": "English",
-      "speakers": ["isaac-udy"],
-      "tags": ["Android"],
-      "title": "The Garden Path: A different approach to navigation on Android"
+      "speakers": [
+        "david-rawson"
+      ],
+      "tags": [
+        "Architecture"
+      ],
+      "title": "A Philosophy of Android Software Design"
     },
     "114": {
-      "description": "Konstantin recently led a team to roll out a new system that operates Auckland's electricity network. Here he takes us through the journey: applying development principles to operational problems, negotiating the right type and level of SLOs, working with tech and non-tech stakeholders to build trust, building a culture of continuous improvement, retrofitting automation onto existing systems, and picking the right type of compromises.",
+      "description": "Navigation is fundamental to how we build our Android applications. However, process death and configuration changes put interesting restrictions on what kinds of architectures we can use for navigation compared with other platforms. This often means we end up with: <br/>a) Navigation that lacks strong typing, or navigation that's difficult to use in multi-module projects<br/>b) Navigation logic that is difficult to test in isolation<br/>c) Difficulties sharing data between screens<br/>d) Uncertainty over which layer of the application is really in control of navigation<br/><br/>In this talk, I propose a different way of thinking about navigation on Android, and how navigation architecture should work in general. This approach is simple, scalable and testable. <br/><br/>We will:<br/>* Recap abstract concepts of navigation on Android<br/>* Understand where current navigation approaches struggle<br/>* Explore a different approach to navigation<br/>* Examine practical examples of this approach",
       "language": "English",
-      "speakers": ["konstantin-tchernov"],
-      "tags": ["Development"],
-      "title": "Engineering reliability critical infrastructure"
+      "speakers": [
+        "isaac-udy"
+      ],
+      "tags": [
+        "Android"
+      ],
+      "title": "The Garden Path: A different approach to navigation on Android"
     },
-    "107": {
+    "106": {
       "description": "Using the Vertex AI platform to build AI/ML models including Generative AI.",
       "language": "English",
-      "speakers": ["nakul-gowdra"],
-      "tags": ["AI/ML"],
+      "speakers": [
+        "nakul-gowdra"
+      ],
+      "tags": [
+        "AI/ML"
+      ],
       "title": "AI/ML - Vertex AI"
     },
+    "116": {
+      "description": "From the early days of static HTML pages to the dynamic and interactive web applications of today, web development has come a long way. But what does the future hold for this ever-evolving field?<br/><br/>In this talk we will explore the latest trends, tools, and techniques employed by web developers to create immersive and engaging user experiences. From the adoption of progressive web apps (PWA) to project Fugu and the increasing importance of mobile optimization to the rise of front-end frameworks and the growing focus on accessibility and inclusivity, we will examine the key factors driving the evolution of web development in the present era.<br/><br/>Whether you are a seasoned web developer, decision maker, a tech enthusiast, or someone simply curious about the future of the digital realm, this session promises to provide valuable insights and ignite stimulating discussions. Join us as we unravel the possibilities and opportunities that lie ahead in the dynamic world of web development.",
+      "language": "English",
+      "speakers": [
+        "aliaksei-kuncevic"
+      ],
+      "tags": [
+        "Web"
+      ],
+      "title": "The Future of Web Development"
+    },
     "117": {
+      "description": "Konstantin recently led a team to roll out a new system that operates Auckland's electricity network. Here he takes us through the journey: applying development principles to operational problems, negotiating the right type and level of SLOs, working with tech and non-tech stakeholders to build trust, building a culture of continuous improvement, retrofitting automation onto existing systems, and picking the right type of compromises.",
+      "language": "English",
+      "speakers": [
+        "konstantin-tchernov"
+      ],
+      "tags": [
+        "Development"
+      ],
+      "title": "Engineering reliability critical infrastructure"
+    },
+    "108": {
       "description": "Curious about career advancement in software engineering but not keen on the management track? Discover an alternative path: Staff Engineering.<br/><br/>This talk demystifies what it means to be a Staff-level Engineer and how this diverges from traditional Engineering Management roles. The session also offers a firsthand look at the oscillation between engineering and management roles, providing valuable insights for crafting a unique and fulfilling career trajectory.",
       "language": "English",
-      "speakers": ["annie-vella"],
-      "tags": ["Career"],
+      "speakers": [
+        "annie-vella"
+      ],
+      "tags": [
+        "Career"
+      ],
       "title": "Staff Engineering - A Technical Alternative to Management"
+    },
+    "118": {
+      "description": "The ANZ Plus has one of the largest mobile teams in the southern hemisphere. As a team we are responsible for the app behind Australia’s fastest growing new digital bank. We also aim to have Zero tech debt - a goal we will never reach!<br/><br/>Why have a goal you will never reach? And why are we setting our sights on having none? Isn’t some level acceptable - or even desirable?<br/><br/>During this talk we will investigate the nature of tech debt. We will make the case that the ideal amount of tech debt is “zero” and look at how we can balance off this principal with the need to be incrementally improving and delivering rapidly.",
+      "language": "English",
+      "speakers": [
+        "like-sleeman"
+      ],
+      "tags": [
+        "Practice"
+      ],
+      "title": "Zero Technical Debt"
+    },
+    "120": {
+      "description": "",
+      "language": "English",
+      "speakers": [
+        "kristine-song"
+      ],
+      "tags": [
+        "Career"
+      ],
+      "title": "Building your tech career with developer communities"
     }
   },
   "speakers": {
@@ -400,8 +519,94 @@
       "order": 3,
       "title": "Software Engineer"
     },
-    "kristine-song": {
+    "brett-morgan": {
+      "bio": "Brett builds samples, codelabs, documentation and other fun things to encourage developers to use Flutter and Dart to the fullest. Hailing from Sydney, Australia where he has worked across the entire range of companies from Australia’s largest bank to secretive startups. His interests include all things technical, from mastering Sous Vide cooking in the kitchen to Web Assembly in the browser.",
+      "company": "Google",
+      "country": "Sydney, Australia",
+      "name": "Brett Morgan",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQFT7gIXpWwjnQ/profile-displayphoto-shrink_800_800/0/1548995428855?e=1703721600&v=beta&t=X_2IPgEXVTEJ7KqUCjnyt5laEn5nFvpNbjlJ315s4hA",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/DomesticMouse",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/brettmorgan/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Developer Relations Engineer, Dart and Flutter"
+    },
+    "christopher-mende": {
       "bio": "",
+      "company": "Google",
+      "country": "Auckland, New Zealand",
+      "name": "Christopher Mende",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/chris.png?alt=media",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/csmende/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Head of Technology, Google Cloud"
+    },
+    "aliaksei-kuncevic": {
+      "bio": "With over 15 years of experience in the tech industry, Lex is a Google Developer Expert and a Director and Founder of Angular Consulting, a company that provides IT services and solutions based on the Angular framework.",
+      "company": "Angular Consulting",
+      "country": "Sydney, Australia",
+      "name": "Aliaksei (Lex) Kuncevič",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQFCM4GdUO0CoA/profile-displayphoto-shrink_800_800/0/1694050165775?e=1703721600&v=beta&t=jX_5j1ZzbPrUDxngEQObK6N4NYBDzn2wW73OfwQk0LY",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/kuncevic",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/kuncevic/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Founder"
+    },
+    "luke-sleeman": {
+      "bio": "Luke is a Principal Developer at Itty Bitty Apps specialising in Android app development. He's passionate about building inclusive, diverse and high performing teams.",
+      "company": "Itty Bitty Apps",
+      "country": "Melbourne, Australia",
+      "name": "Luke Sleeman",
+      "photo": "",
+      "photoUrl": "https://pbs.twimg.com/profile_images/1540119349452673024/NYKtViFe_400x400.jpg",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/luke-sleeman-b2b51060/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Android Principal"
+    },
+    "kristine-song": {
+      "bio": "Kristine started her Google journey in 2016 as an Administrative Business Partner to the director of Engineering and moved to the People & Operation team as a Software engineer recruiter. She is currently working as a regional lead for KR and ANZ sub-region leading the startup accelerator program and supporting developer communities.",
       "company": "Google",
       "country": "South Korea",
       "name": "Kristine Song",
@@ -422,7 +627,7 @@
         }
       ],
       "order": 3,
-      "title": "Program Manager"
+      "title": "Regional Lead for KR and ANZ, Developer Ecosystem team"
     },
     "nakul-gowdra": {
       "bio": "",
@@ -445,7 +650,7 @@
     },
     "jk-gunnink": {
       "bio": "",
-      "company": "Qoria",
+      "company": "",
       "country": "Perth, Australia",
       "name": "JK Gunnink",
       "photo": "",
@@ -491,7 +696,6 @@
       "order": 4,
       "title": "Android Engineer"
     }
-
   },
   "team": [
     {
