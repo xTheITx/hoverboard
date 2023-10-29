@@ -94,6 +94,24 @@
           "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/sot.jpg?alt=media",
           "name": "Summer of Tech",
           "url": "https://www.summeroftech.co.nz/"
+        },
+        {
+          "order": 4,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/asc.png?alt=media",
+          "name": "Auckland Software Craftsmanship",
+          "url": "https://www.meetup.com/auckland-software-craftsmanship/"
+        },
+        {
+          "order": 5,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/csea.png?alt=media",
+          "name": "CSEA",
+          "url": "https://csea.co.nz/"
+        },
+        {
+          "order": 6,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/aac.png?alt=media",
+          "name": "Auckland Android Community",
+          "url": "https://www.meetup.com/android-meetup/"
         }
       ],
       "order": 3,
@@ -160,6 +178,22 @@
           "startTime": "11:45"
         },
         {
+          "endTime": "14:00",
+          "sessions": [
+            {
+              "items": [
+                "105"
+              ]
+            },
+            {
+              "items": [
+                "115"
+              ]
+            }
+          ],
+          "startTime": "13:15"
+        },
+        {
           "endTime": "14:45",
           "sessions": [
             {
@@ -174,17 +208,6 @@
             }
           ],
           "startTime": "14:00"
-        },
-        {
-          "endTime": "15:30",
-          "sessions": [
-            {
-              "items": [
-                "117"
-              ]
-            }
-          ],
-          "startTime": "15:00"
         },
         {
           "endTime": "16:30",
@@ -292,6 +315,28 @@
       ],
       "title": "The Garden Path: A different approach to navigation on Android"
     },
+    "105": {
+      "description": "In this session, we will cover what foundation AI models are, and the different modalities that they cover. We will also discuss what Responsible AI is and what it means for developers. Lastly, we will talk about what Google is doing towards Responsible AI development internally and externally.",
+      "language": "English",
+      "speakers": [
+        "oscar-wahltinez"
+      ],
+      "tags": [
+        "AI/ML"
+      ],
+      "title": "Foundation Models and Responsible AI"
+    },
+    "115": {
+      "description": "From the early days of static HTML pages to the dynamic and interactive web applications of today, web development has come a long way. But what does the future hold for this ever-evolving field?<br/><br/>In this talk we will explore the latest trends, tools, and techniques employed by web developers to create immersive and engaging user experiences. From the adoption of progressive web apps (PWA) to project Fugu and the increasing importance of mobile optimization to the rise of front-end frameworks and the growing focus on accessibility and inclusivity, we will examine the key factors driving the evolution of web development in the present era.<br/><br/>Whether you are a seasoned web developer, decision maker, a tech enthusiast, or someone simply curious about the future of the digital realm, this session promises to provide valuable insights and ignite stimulating discussions. Join us as we unravel the possibilities and opportunities that lie ahead in the dynamic world of web development.",
+      "language": "English",
+      "speakers": [
+        "aliaksei-kuncevic"
+      ],
+      "tags": [
+        "Web"
+      ],
+      "title": "The Future of Web Development"
+    },
     "106": {
       "description": "Using the Vertex AI platform to build AI/ML models including Generative AI.",
       "language": "English",
@@ -304,17 +349,6 @@
       "title": "AI/ML - Vertex AI"
     },
     "116": {
-      "description": "From the early days of static HTML pages to the dynamic and interactive web applications of today, web development has come a long way. But what does the future hold for this ever-evolving field?<br/><br/>In this talk we will explore the latest trends, tools, and techniques employed by web developers to create immersive and engaging user experiences. From the adoption of progressive web apps (PWA) to project Fugu and the increasing importance of mobile optimization to the rise of front-end frameworks and the growing focus on accessibility and inclusivity, we will examine the key factors driving the evolution of web development in the present era.<br/><br/>Whether you are a seasoned web developer, decision maker, a tech enthusiast, or someone simply curious about the future of the digital realm, this session promises to provide valuable insights and ignite stimulating discussions. Join us as we unravel the possibilities and opportunities that lie ahead in the dynamic world of web development.",
-      "language": "English",
-      "speakers": [
-        "aliaksei-kuncevic"
-      ],
-      "tags": [
-        "Web"
-      ],
-      "title": "The Future of Web Development"
-    },
-    "117": {
       "description": "Konstantin recently led a team to roll out a new system that operates Auckland's electricity network. Here he takes us through the journey: applying development principles to operational problems, negotiating the right type and level of SLOs, working with tech and non-tech stakeholders to build trust, building a culture of continuous improvement, retrofitting automation onto existing systems, and picking the right type of compromises.",
       "language": "English",
       "speakers": [
@@ -340,7 +374,7 @@
       "description": "The ANZ Plus has one of the largest mobile teams in the southern hemisphere. As a team we are responsible for the app behind Australia’s fastest growing new digital bank. We also aim to have Zero tech debt - a goal we will never reach!<br/><br/>Why have a goal you will never reach? And why are we setting our sights on having none? Isn’t some level acceptable - or even desirable?<br/><br/>During this talk we will investigate the nature of tech debt. We will make the case that the ideal amount of tech debt is “zero” and look at how we can balance off this principal with the need to be incrementally improving and delivering rapidly.",
       "language": "English",
       "speakers": [
-        "like-sleeman"
+        "luke-sleeman"
       ],
       "tags": [
         "Practice"
@@ -519,29 +553,29 @@
       "order": 3,
       "title": "Software Engineer"
     },
-    "brett-morgan": {
-      "bio": "Brett builds samples, codelabs, documentation and other fun things to encourage developers to use Flutter and Dart to the fullest. Hailing from Sydney, Australia where he has worked across the entire range of companies from Australia’s largest bank to secretive startups. His interests include all things technical, from mastering Sous Vide cooking in the kitchen to Web Assembly in the browser.",
+    "oscar-wahltinez": {
+      "bio": "Oscar has over 10 years of industry experience, including leading engineering teams at Google and deploying software to billions of users as part of Windows and Android. Experienced in technical outreach and partnerships, responsible AI development, and foundation models.",
       "company": "Google",
       "country": "Sydney, Australia",
-      "name": "Brett Morgan",
+      "name": "Oscar Wahltinez",
       "photo": "",
-      "photoUrl": "https://media.licdn.com/dms/image/C5603AQFT7gIXpWwjnQ/profile-displayphoto-shrink_800_800/0/1548995428855?e=1703721600&v=beta&t=X_2IPgEXVTEJ7KqUCjnyt5laEn5nFvpNbjlJ315s4hA",
+      "photoUrl": "https://sessionize.com/image/2621-400o400o2-DmQNYmNaw3yXMQR5tnGn48.jpg",
       "pronouns": "",
       "shortBio": "",
       "socials": [
         {
           "icon": "twitter",
-          "link": "https://twitter.com/DomesticMouse",
+          "link": "https://twitter.com/owahltinez",
           "name": "Twitter"
         },
         {
           "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/brettmorgan/",
+          "link": "https://www.linkedin.com/in/owahltinez/",
           "name": "LinkedIn"
         }
       ],
       "order": 3,
-      "title": "Developer Relations Engineer, Dart and Flutter"
+      "title": "Developer Relations Engineer in Responsible AI at Google Research"
     },
     "christopher-mende": {
       "bio": "",
