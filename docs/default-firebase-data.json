@@ -47,7 +47,14 @@
       "title": "Premium Sponsors"
     },
     {
-      "items": [],
+      "items": [
+        {
+          "order": 0,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/octo.jpg?alt=media",
+          "name": "Octopus Deploy",
+          "url": "https://octopus.com/"
+        }
+      ],
       "order": 1,
       "title": "Gold Sponsors"
     },
@@ -112,6 +119,24 @@
           "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/aac.png?alt=media",
           "name": "Auckland Android Community",
           "url": "https://www.meetup.com/android-meetup/"
+        },
+        {
+          "order": 7,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/jda.png?alt=media",
+          "name": "JuniorDev Auckland",
+          "url": "https://www.meetup.com/juniordev-auckland/"
+        },
+        {
+          "order": 8,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/hgc.png?alt=media",
+          "name": "Hot Girls Code",
+          "url": "https://www.instagram.com/hot_girls_code/"
+        },
+        {
+          "order": 9,
+          "logoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/gca.png?alt=media",
+          "name": "GDG Cloud Auckland",
+          "url": "https://www.meetup.com/auckland-google-cloud-meetup/"
         }
       ],
       "order": 3,
@@ -710,6 +735,82 @@
       ],
       "order": 3,
       "title": "Engineering Lead"
+    },
+    "alix-klingenberg": {
+      "bio": "",
+      "company": "Octopus Deploy",
+      "country": "Wellington, New Zealand",
+      "name": "Alix Klingenberg",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C4E03AQEB9PsMuTs01A/profile-displayphoto-shrink_800_800/0/1516931856706?e=1704326400&v=beta&t=qc8UwEKO79_a_eb5CsmObp1_8IeU3VV3CFG-EqpUvrM",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/alixjklingenberg/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 4,
+      "title": "Senior Software Developer"
+    },
+    "yekti-crow": {
+      "bio": "Experienced community builder and communications professional with a demonstrated history of working in the intersection of technology and education, non-profit organisation, management consulting industry and government agency across Asia, the Americas and Aotearoa New Zealand.",
+      "company": "Summer of Tech",
+      "country": "Auckland, New Zealand",
+      "name": "Yekti Crow",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQGjES81xJmfTw/profile-displayphoto-shrink_800_800/0/1681424519903?e=1704326400&v=beta&t=4sNiKiF1bJRDnmG4a_MVR5zVoKu4NshBGfgIuLmJQHw",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/yekticrow/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 4,
+      "title": "Industry Engagement Manager"
+    },
+    "lola-garden": {
+      "bio": "",
+      "company": "Trade Me",
+      "country": "Auckland, New Zealand",
+      "name": "Lola Garden",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQHKDvev36N_JQ/profile-displayphoto-shrink_800_800/0/1653620320960?e=1704326400&v=beta&t=WWzmmd7mM2y3Hn-yc_8kgWUAb6KeEewlb42eo_Ss8jE",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/lolagarden/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 4,
+      "title": "Full Stack Developer"
+    },
+    "aorthi-afroza": {
+      "bio": "",
+      "company": "Trade Me",
+      "country": "Auckland, New Zealand",
+      "name": "Aorthi Afroza",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQHEs2xTWrJ-lw/profile-displayphoto-shrink_800_800/0/1647400146934?e=1704326400&v=beta&t=_EoG2WGpMbZM2yxsBaGNOBHu7XVCk0ATP8dzOaz8pR0",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/aorthiafroza/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 4,
+      "title": "Full Stack Developer"
     },
     "isaac-udy": {
       "bio": "",
