@@ -196,6 +196,11 @@
           "sessions": [
             {
               "items": [
+                "104"
+              ]
+            },
+            {
+              "items": [
                 "114"
               ]
             }
@@ -223,7 +228,8 @@
           "sessions": [
             {
               "items": [
-                "106"
+                "106",
+                "1062"
               ]
             },
             {
@@ -235,11 +241,23 @@
           "startTime": "14:00"
         },
         {
+          "endTime": "15:30",
+          "sessions": [
+            {
+              "items": [
+                "107"
+              ]
+            }
+          ],
+          "startTime": "14:45"
+        },
+        {
           "endTime": "16:30",
           "sessions": [
             {
               "items": [
-                "108"
+                "108",
+                "1082"
               ]
             },
             {
@@ -249,6 +267,17 @@
             }
           ],
           "startTime": "15:45"
+        },
+        {
+          "endTime": "17:30",
+          "sessions": [
+            {
+              "items": [
+                "109"
+              ]
+            }
+          ],
+          "startTime": "16:30"
         },
         {
           "endTime": "18:00",
@@ -329,6 +358,17 @@
       ],
       "title": "A Philosophy of Android Software Design"
     },
+    "104": {
+      "description": "TBD",
+      "language": "English",
+      "speakers": [
+        "gwenny-warnick"
+      ],
+      "tags": [
+        "Google Cloud"
+      ],
+      "title": "Non Functional Requirements for Cloud Computing Projects"
+    },
     "114": {
       "description": "Navigation is fundamental to how we build our Android applications. However, process death and configuration changes put interesting restrictions on what kinds of architectures we can use for navigation compared with other platforms. This often means we end up with: <br/>a) Navigation that lacks strong typing, or navigation that's difficult to use in multi-module projects<br/>b) Navigation logic that is difficult to test in isolation<br/>c) Difficulties sharing data between screens<br/>d) Uncertainty over which layer of the application is really in control of navigation<br/><br/>In this talk, I propose a different way of thinking about navigation on Android, and how navigation architecture should work in general. This approach is simple, scalable and testable. <br/><br/>We will:<br/>* Recap abstract concepts of navigation on Android<br/>* Understand where current navigation approaches struggle<br/>* Explore a different approach to navigation<br/>* Examine practical examples of this approach",
       "language": "English",
@@ -373,6 +413,17 @@
       ],
       "title": "AI/ML - Vertex AI"
     },
+    "1062": {
+      "description": "Explore 'Designing the Future: Exploring AI's Impact on Software Design and UX.' This talk covers various aspects of AI's role in software design and user experience. Uncover how AI transforms design collaboration, enhances accessibility, shapes emerging trends, and promotes a human-centered approach. Plus, discover the new career opportunities AI brings to designers",
+      "language": "English",
+      "speakers": [
+        "oxana-timofeeva"
+      ],
+      "tags": [
+        "AI/ML"
+      ],
+      "title": "Designing the Future: Exploring AI's Impact on Software Design and UX"
+    },
     "116": {
       "description": "Konstantin recently led a team to roll out a new system that operates Auckland's electricity network. Here he takes us through the journey: applying development principles to operational problems, negotiating the right type and level of SLOs, working with tech and non-tech stakeholders to build trust, building a culture of continuous improvement, retrofitting automation onto existing systems, and picking the right type of compromises.",
       "language": "English",
@@ -383,6 +434,20 @@
         "Development"
       ],
       "title": "Engineering reliability critical infrastructure"
+    },
+    "107": {
+      "description": "",
+      "language": "English",
+      "speakers": [
+        "isaac-udy",
+        "kate-nesmyelova",
+        "jess-lowe",
+        "jason-vella"
+      ],
+      "tags": [
+        "Practice"
+      ],
+      "title": "Panel – Quality Engineering"
     },
     "108": {
       "description": "Curious about career advancement in software engineering but not keen on the management track? Discover an alternative path: Staff Engineering.<br/><br/>This talk demystifies what it means to be a Staff-level Engineer and how this diverges from traditional Engineering Management roles. The session also offers a firsthand look at the oscillation between engineering and management roles, providing valuable insights for crafting a unique and fulfilling career trajectory.",
@@ -395,6 +460,18 @@
       ],
       "title": "Staff Engineering - A Technical Alternative to Management"
     },
+    "1082": {
+      "description": "Summer of Tech is a non-profit organisation working to empower Aotearoa’s tech students and graduates with the help of our industry volunteers. We make it easy for employers to hire junior talent with our purpose-built platform, recruitment events and supportive team. Help us build a bright tech future for Aotearoa and register as an employer at www.summeroftech.co.nz.",
+      "language": "English",
+      "speakers": [
+        "yekti-crow",
+        "kinzi-ceolin"
+      ],
+      "tags": [
+        "Career"
+      ],
+      "title": "Empowering the next generation of tech superstars"
+    },
     "118": {
       "description": "The ANZ Plus has one of the largest mobile teams in the southern hemisphere. As a team we are responsible for the app behind Australia’s fastest growing new digital bank. We also aim to have Zero tech debt - a goal we will never reach!<br/><br/>Why have a goal you will never reach? And why are we setting our sights on having none? Isn’t some level acceptable - or even desirable?<br/><br/>During this talk we will investigate the nature of tech debt. We will make the case that the ideal amount of tech debt is “zero” and look at how we can balance off this principal with the need to be incrementally improving and delivering rapidly.",
       "language": "English",
@@ -405,6 +482,19 @@
         "Practice"
       ],
       "title": "Zero Technical Debt"
+    },
+    "109": {
+      "description": "",
+      "language": "English",
+      "speakers": [
+        "lola-garden",
+        "aorthi-afroza",
+        "alix-klingenberg"
+      ],
+      "tags": [
+        "Career"
+      ],
+      "title": "Panel – Career Development"
     },
     "120": {
       "description": "",
@@ -420,7 +510,7 @@
   },
   "speakers": {
     "annie-vella": {
-      "bio": "",
+      "bio": "Annie is a lifelong computer enthusiast with two decades of experience in software engineering and technical leadership, having honed her craft across various industries in four countries. She has recently returned to an engineering role after her second stint in engineering management, now holding the title of Distinguished Engineer at Westpac NZ. She enjoys designing resilient systems, unearthing opportunities across the organization, and driving process improvements while emphasizing quality from the outset. Passionate about cultivating a culture of curiosity and continuous learning, Annie inspires engineers to work smarter, not harder, fostering an environment where technical brilliance thrives.",
       "company": "Westpac New Zealand",
       "country": "Auckland, New Zealand",
       "name": "Annie Vella",
@@ -478,7 +568,7 @@
       "title": "Senior Android Developer"
     },
     "katie-barnett": {
-      "bio": "",
+      "bio": "Katie is passionate about all things Android. She has taken on a wide variety of challenging projects including in the live event, media and travel space. Her favourite thing is to see someone having a delightful experience using something she has worked on. Katie is very active in the development community, she is one of the organisers of GDG Melbourne and is a Women Techmakers Ambassador. She frequently runs events, speaks on technical and non-technical topics and enjoys writing blog posts to share her experience with others. Katie is based in Melbourne, Australia but loves to travel the world and outside of tech she enjoys boardgaming and attempting to finish many craft projects.",
       "company": "Bilue",
       "country": "Melbourne, Australia",
       "name": "Katie Barnett",
@@ -530,6 +620,63 @@
       "order": 3,
       "title": "Site Reliability Engineer"
     },
+    "kate-nesmyelova": {
+      "bio": "Experienced IT leader with 20 years career across diverse domains, from banking to healthcare and more. Adept at crafting high-performing teams, streamlining processes, and delivering top-notch engineering solutions. Recognized for expertise in quality engineering, agile testing, coaching and mentoring teams to foster a culture of continuous learning and success.",
+      "company": "",
+      "country": "Auckland, New Zealand",
+      "name": "Kate Nesmyelova",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/kate-n.jpg?alt=media",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "website",
+          "link": "https://www.linkedin.com/in/kate-nesmyelova/",
+          "name": "Website"
+        }
+      ],
+      "order": 3,
+      "title": "Quality Engineering"
+    },
+    "jason-vella": {
+      "bio": "Jason is a highly skilled software professional with nearly two decades of experience and have a history of leading teams to design and build large distributed systems with an emphasis on elegant, scalable and robust solutions.",
+      "company": "LawVu",
+      "country": "Auckland, New Zealand",
+      "name": "Jason Vella",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C4D03AQGVJzOSmZi3pA/profile-displayphoto-shrink_800_800/0/1564353398000?e=1704931200&v=beta&t=H7jn4-g3llT3SJxJAz4ToxliaMY8JumTYJvfxrJgL8Q",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "website",
+          "link": "https://www.linkedin.com/in/jvella/",
+          "name": "Website"
+        }
+      ],
+      "order": 3,
+      "title": "Head of Platform"
+    },
+    "jess-lowe": {
+      "bio": "",
+      "company": "",
+      "country": "Auckland, New Zealand",
+      "name": "Jess Lowe",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/jess.jpeg?alt=media",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/jess-lowe/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "GDSC Manager"
+    },
     "oxana-timofeeva": {
       "bio": "",
       "company": "",
@@ -552,7 +699,7 @@
         }
       ],
       "order": 3,
-      "title": "Site Reliability Engineer"
+      "title": "Product Designer"
     },
     "lovee-jain": {
       "bio": "",
@@ -689,7 +836,7 @@
       "title": "Regional Lead for KR and ANZ, Developer Ecosystem team"
     },
     "nakul-gowdra": {
-      "bio": "",
+      "bio": "Nakul is the lead for digital native customers and initiatives in New Zealand. He works closely with stakeholders to enable data driven outcomes and help them explore the best way to grow, whether via marketing analytics, research or sustainability.<br/><br/>With over a decade of experience in data analytics, Nakul facilitates deeper understanding of how Google’s data and AI tools can improve business and personal outcomes while upholding Google’s AI ethical principles.",
       "company": "Google",
       "country": "Auckland, New Zealand",
       "name": "Nakul Gowdra",
@@ -708,7 +855,7 @@
       "title": "Lead - Technologist (Digial Natives)"
     },
     "jk-gunnink": {
-      "bio": "",
+      "bio": "Hey there! I'm JK Gunnink, a software and cloud engineer with a passion for bringing rigor and operational efficiency to engineering teams. I'm a serverless specialist and harbinger of DevOps, and I love to bake in security practices along the way.<br/><br/>I really love building things, be it software, cloud infrastructure, helping to augment software teams to be elite performers or build out scalable and secure platforms. As a technical leader, I enjoy helping and uplifting capabilities from all I interact with and keep my tools sharp by attending conferences and experimenting with numerous side projects. In my day to day I love helping my team and my customers build and operate reliable, scalable, and secure software and platforms.",
       "company": "",
       "country": "Perth, Australia",
       "name": "JK Gunnink",
@@ -756,7 +903,7 @@
       "title": "Senior Software Developer"
     },
     "yekti-crow": {
-      "bio": "Experienced community builder and communications professional with a demonstrated history of working in the intersection of technology and education, non-profit organisation, management consulting industry and government agency across Asia, the Americas and Aotearoa New Zealand.",
+      "bio": "Yekti Crow (she/her) is a Community Builder and Advocate for Diversity, Equity, and Inclusion in the workplace, currently working as the Industry Engagement Manager at Summer of Tech. With a decade working in government relations, international relations, global consulting, and non-profit, Yekti has a passion for fostering diverse and inclusive professional communities. She has worked across seven countries in Asia, the Americas, and her home in New Zealand.<br/><br/>Yekti's commitment to community empowerment is evident through her involvement with GLAM (LGBTQIA+ employee group) at McKinsey & Company, where she played an active role in championing inclusivity. Additionally, she actively contributes to the advancement of women by participating in initiatives like Jakarta's Women's March and, more recently, completing the Women of Colour Leadership Programme in Tāmaki Makaurau alongside other wāhine leaders. Yekti's work at Summer of Tech is devoted to breaking down barriers to entry for underrepresented individuals in the tech industry. Through paid internships and entry-level roles, Summer of Tech helps to connect opportunities for students and graduates while inspiring tech employers to build a supportive and inclusive Aotearoa tech industry.",
       "company": "Summer of Tech",
       "country": "Auckland, New Zealand",
       "name": "Yekti Crow",
@@ -793,6 +940,44 @@
       "order": 4,
       "title": "Full Stack Developer"
     },
+    "kinzi-ceolin": {
+      "bio": "",
+      "company": "",
+      "country": "Auckland, New Zealand",
+      "name": "Kinzi Ceolin",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQG5LAeaaAl3lw/profile-displayphoto-shrink_800_800/0/1677098911525?e=1704931200&v=beta&t=gQsWnpaw1PpwjLu6qB0xk_tOOf4bXWnQhITGe6iKJC0",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/kinzi-c-30aa33210/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 4,
+      "title": "Master of Information Technology Student | Legal Translator | Project Manager"
+    },
+    "gwenny-warnick": {
+      "bio": "",
+      "company": "Xero",
+      "country": "Melbourne, Australia",
+      "name": "Gwenny Warnick",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQHJazQAorwG5g/profile-displayphoto-shrink_800_800/0/1682592994221?e=1704326400&v=beta&t=SGw7x-8OlTbsyEB3FFoWKzCu6D8cUSKZH7lIrEV6ocA",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/gwendolen-warnick/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 4,
+      "title": "DevOps & Cloud | GDE"
+    },
     "aorthi-afroza": {
       "bio": "",
       "company": "Trade Me",
@@ -813,7 +998,7 @@
       "title": "Full Stack Developer"
     },
     "isaac-udy": {
-      "bio": "",
+      "bio": "Meet Isaac Udy, an Android engineer with nearly a decade of experience. During this time, he has worked in teams of all sizes and discovered a passion for improving the engineering effectiveness of organisations. In the past three years, he has contributed to platform and enablement teams at Xero and ANZ, where he's built developer tools, written architectural guidance, and spent a lot of time pair programming. Isaac's interests lie in topics such as navigation, architecture, testing, developer experience, and modularization. Don't hesitate to strike up a conversation with him; he's always eager to exchange insights and hear about your own endeavours!",
       "company": "ANZx",
       "country": "Auckland, New Zealand",
       "name": "Isaac Udy",
