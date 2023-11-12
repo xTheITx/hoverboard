@@ -149,7 +149,18 @@
       "dateReadable": "November 12",
       "timeslots": [
         {
-          "endTime": "09:30",
+          "endTime": "09:15",
+          "sessions": [
+            {
+              "items": [
+                "132"
+              ]
+            }
+          ],
+          "startTime": "08:30"
+        },
+        {
+          "endTime": "10:00",
           "sessions": [
             {
               "items": [
@@ -157,7 +168,7 @@
               ]
             }
           ],
-          "startTime": "09:00"
+          "startTime": "09:15"
         },
         {
           "endTime": "10:45",
@@ -174,6 +185,17 @@
             }
           ],
           "startTime": "10:00"
+        },
+        {
+          "endTime": "11:00",
+          "sessions": [
+            {
+              "items": [
+                "134"
+              ]
+            }
+          ],
+          "startTime": "10:45"
         },
         {
           "endTime": "11:45",
@@ -206,6 +228,17 @@
             }
           ],
           "startTime": "11:45"
+        },
+        {
+          "endTime": "13:15",
+          "sessions": [
+            {
+              "items": [
+                "133"
+              ]
+            }
+          ],
+          "startTime": "12:30"
         },
         {
           "endTime": "14:00",
@@ -247,9 +280,25 @@
               "items": [
                 "107"
               ]
+            },
+            {
+              "items": [
+                "117"
+              ]
             }
           ],
           "startTime": "14:45"
+        },
+        {
+          "endTime": "15:45",
+          "sessions": [
+            {
+              "items": [
+                "135"
+              ]
+            }
+          ],
+          "startTime": "15:30"
         },
         {
           "endTime": "16:30",
@@ -280,6 +329,17 @@
           "startTime": "16:30"
         },
         {
+          "endTime": "17:15",
+          "sessions": [
+            {
+              "items": [
+                "119"
+              ]
+            }
+          ],
+          "startTime": "16:30"
+        },
+        {
           "endTime": "18:00",
           "sessions": [
             {
@@ -289,6 +349,17 @@
             }
           ],
           "startTime": "17:30"
+        },
+        {
+          "endTime": "19:30",
+          "sessions": [
+            {
+              "items": [
+                "137"
+              ]
+            }
+          ],
+          "startTime": "18:00"
         }
       ],
       "tracks": [
@@ -359,7 +430,7 @@
       "title": "A Philosophy of Android Software Design"
     },
     "104": {
-      "description": "TBD",
+      "description": "When it comes to cloud, we often have deliverables and work scoped out, then find we're missing deadlines, holding up other teams, or experiencing scope creep due to unknown unknowns. Gwenny will take us through an overview of how to plan and scope non-functional requirements earlier in a cloud computing component or product's lifecycle to make our projects more successful, on time, and on budget.",
       "language": "English",
       "speakers": [
         "gwenny-warnick"
@@ -381,7 +452,7 @@
       "title": "The Garden Path: A different approach to navigation on Android"
     },
     "105": {
-      "description": "In this session, we will cover what foundation AI models are, and the different modalities that they cover. We will also discuss what Responsible AI is and what it means for developers. Lastly, we will talk about what Google is doing towards Responsible AI development internally and externally.",
+      "description": "In this talk, we will cover what foundation AI models are, and the different modalities that they cover. We will also discuss what Responsible AI is and what it means for developers. Lastly, we will talk about what Google is doing towards Responsible AI development internally and externally.",
       "language": "English",
       "speakers": [
         "oscar-wahltinez"
@@ -403,7 +474,7 @@
       "title": "The Future of Web Development"
     },
     "106": {
-      "description": "Using the Vertex AI platform to build AI/ML models including Generative AI.",
+      "description": "How to get started with AI/ML on Google Cloud and how models can be rapidly prototyped and brought to production with robust governance.<br/><br/>This will talk will also cover Gen AI Capability overview on Vertex AI.",
       "language": "English",
       "speakers": [
         "nakul-gowdra"
@@ -411,7 +482,7 @@
       "tags": [
         "AI/ML"
       ],
-      "title": "AI/ML - Vertex AI"
+      "title": "AI/ML and Vertex AI"
     },
     "1062": {
       "description": "Explore 'Designing the Future: Exploring AI's Impact on Software Design and UX.' This talk covers various aspects of AI's role in software design and user experience. Uncover how AI transforms design collaboration, enhances accessibility, shapes emerging trends, and promotes a human-centered approach. Plus, discover the new career opportunities AI brings to designers",
@@ -442,12 +513,25 @@
         "isaac-udy",
         "kate-nesmyelova",
         "jess-lowe",
-        "jason-vella"
+        "jason-vella",
+        "aliaksei-kuncevic",
+        "sophia-halapchuk"
       ],
       "tags": [
         "Practice"
       ],
       "title": "Panel – Quality Engineering"
+    },
+    "117": {
+      "description": "If you aren't doing it, you are toast.",
+      "language": "English",
+      "speakers": [
+        "john-graves"
+      ],
+      "tags": [
+        "Practice"
+      ],
+      "title": "Coding with an AI Assistant"
     },
     "108": {
       "description": "Curious about career advancement in software engineering but not keen on the management track? Discover an alternative path: Staff Engineering.<br/><br/>This talk demystifies what it means to be a Staff-level Engineer and how this diverges from traditional Engineering Management roles. The session also offers a firsthand look at the oscillation between engineering and management roles, providing valuable insights for crafting a unique and fulfilling career trajectory.",
@@ -465,7 +549,7 @@
       "language": "English",
       "speakers": [
         "yekti-crow",
-        "kinzi-ceolin"
+        "alyssa-pausanos"
       ],
       "tags": [
         "Career"
@@ -489,12 +573,26 @@
       "speakers": [
         "lola-garden",
         "aorthi-afroza",
-        "alix-klingenberg"
+        "alix-klingenberg",
+        "anna-cupples",
+        "annie-vella",
+        "long-dao"
       ],
       "tags": [
         "Career"
       ],
       "title": "Panel – Career Development"
+    },
+    "119": {
+      "description": "In the world of constant change, discover how to futureproof your journey toward success. You will discover what superpowers you have,  and how to apply them best. What skills are most useful for empowering you to prosper,  both soft and hard. You will also be able to build your own holistic approach. Your success story starts here! Let's start it together.",
+      "language": "English",
+      "speakers": [
+        "kate-nesmyelova"
+      ],
+      "tags": [
+        "Career"
+      ],
+      "title": "Futureproofing for Success"
     },
     "120": {
       "description": "",
@@ -506,6 +604,36 @@
         "Career"
       ],
       "title": "Building your tech career with developer communities"
+    },
+    "132": {
+      "description": "Get your badge, coffee, enjoy talking meeting new people and getting ready for the day!",
+      "icon": "registration",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fregistration.jpg?alt=media&token=27328646-d323-4cca-904c-75f021bc3ffe",
+      "title": "Registration & morning Coffee"
+    },
+    "133": {
+      "description": "Foooooooood!",
+      "icon": "lunch",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Flunch.jpg?alt=media&token=bc82aaff-92cc-4dcc-a00e-2b6f30a40225",
+      "title": "Lunch"
+    },
+    "134": {
+      "description": "Coffeeeeeee!",
+      "icon": "coffee-break",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fcoffee-break.jpg?alt=media&token=7c2c929b-cb94-4be8-a05a-b3f678136cb7",
+      "title": "Coffee break"
+    },
+    "135": {
+      "description": "Coffeeeeeee!",
+      "icon": "coffee-break",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fmorning.jpg?alt=media&token=d0da3d64-fc63-48c6-9d41-1460451dca64",
+      "title": "Afternoon coffee"
+    },
+    "137": {
+      "description": "Afterparty is a great time to chat about the day and meet new people",
+      "icon": "party",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fparty.jpg?alt=media&token=8e413f01-373a-40bf-bb87-1dcf1d8e6af1",
+      "title": "Afterparty & Networking"
     }
   },
   "speakers": {
@@ -631,17 +759,55 @@
       "shortBio": "",
       "socials": [
         {
-          "icon": "website",
+          "icon": "linkedin",
           "link": "https://www.linkedin.com/in/kate-nesmyelova/",
-          "name": "Website"
+          "name": "LinkedIn"
         }
       ],
       "order": 3,
       "title": "Quality Engineering"
     },
+    "anna-cupples": {
+      "bio": "Anna has been working in the tech industry for 20 years, after studying computer science and information systems at Auckland University.  She has worked at iconic Kiwi companies such as Orion Health, Air New Zealand and is currently Head of Engineering at Trade Me.  She is passionate about tech, creating great products and growing individuals and teams.",
+      "company": "Trade Me",
+      "country": "Auckland, New Zealand",
+      "name": "Anna Cupples",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/anna-cupples.jpeg?alt=media",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://trello.com/c/37UEbxZQ/204-anna-cupples",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Head of Engineering - Classifieds"
+    },
+    "long-dao": {
+      "bio": "",
+      "company": "Datacom",
+      "country": "Auckland, New Zealand",
+      "name": "Long Dao",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQFuEKupSO5iNA/profile-displayphoto-shrink_800_800/0/1517374926933?e=1704931200&v=beta&t=V4V3c5rm5eoK6EzUAgztCB9CD0609mQaWvU44sUwxvE",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/long-dao-42404061/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Practice Lead - Mobile"
+    },
     "jason-vella": {
-      "bio": "Jason is a highly skilled software professional with nearly two decades of experience and have a history of leading teams to design and build large distributed systems with an emphasis on elegant, scalable and robust solutions.",
-      "company": "LawVu",
+      "bio": "Jason is a highly skilled software professional with nearly two decades of experience and has a history of leading teams to design and build large distributed systems with an emphasis on elegant, scalable and robust solutions.",
+      "company": "",
       "country": "Auckland, New Zealand",
       "name": "Jason Vella",
       "photo": "",
@@ -650,13 +816,13 @@
       "shortBio": "",
       "socials": [
         {
-          "icon": "website",
+          "icon": "linkedin",
           "link": "https://www.linkedin.com/in/jvella/",
-          "name": "Website"
+          "name": "LinkedIn"
         }
       ],
       "order": 3,
-      "title": "Head of Platform"
+      "title": ""
     },
     "jess-lowe": {
       "bio": "",
@@ -671,6 +837,44 @@
         {
           "icon": "linkedin",
           "link": "https://www.linkedin.com/in/jess-lowe/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "GDSC Manager"
+    },
+    "john-graves": {
+      "bio": "",
+      "company": "Les Mills International",
+      "country": "Auckland, New Zealand",
+      "name": "John Graves",
+      "photo": "",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQFTwCuQE4HoFQ/profile-displayphoto-shrink_800_800/0/1516341287372?e=1704931200&v=beta&t=RKgN9UNijqKTFbakDdH-ctlxdooKdIfklZT9qCegrYM",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/johndgraves/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 3,
+      "title": "Senior Data Scientist"
+    },
+    "sophia-halapchuk": {
+      "bio": "",
+      "company": "",
+      "country": "Auckland, New Zealand",
+      "name": "Sophia Halapchuk",
+      "photo": "",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/sophia.jpeg?alt=media",
+      "pronouns": "",
+      "shortBio": "",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/sophia-halapchuk/",
           "name": "LinkedIn"
         }
       ],
@@ -726,7 +930,7 @@
       "title": "Software Engineer"
     },
     "oscar-wahltinez": {
-      "bio": "Oscar has over 10 years of industry experience, including leading engineering teams at Google and deploying software to billions of users as part of Windows and Android. Experienced in technical outreach and partnerships, responsible AI development, and foundation models.",
+      "bio": "Oscar has over 10 years of industry experience, including leading engineering teams at Google and deploying software to billions of users as part of Windows and Android. He's also experienced in technical outreach and partnerships, responsible AI development, and foundation models as part of the Responsible AI team at Google.",
       "company": "Google",
       "country": "Sydney, Australia",
       "name": "Oscar Wahltinez",
@@ -940,24 +1144,24 @@
       "order": 4,
       "title": "Full Stack Developer"
     },
-    "kinzi-ceolin": {
+    "alyssa-pausanos": {
       "bio": "",
       "company": "",
       "country": "Auckland, New Zealand",
-      "name": "Kinzi Ceolin",
+      "name": "Alyssa Pausanos",
       "photo": "",
-      "photoUrl": "https://media.licdn.com/dms/image/D5603AQG5LAeaaAl3lw/profile-displayphoto-shrink_800_800/0/1677098911525?e=1704931200&v=beta&t=gQsWnpaw1PpwjLu6qB0xk_tOOf4bXWnQhITGe6iKJC0",
+      "photoUrl": "https://media.licdn.com/dms/image/D5603AQGk_1joW698sQ/profile-displayphoto-shrink_800_800/0/1684982457773?e=1704931200&v=beta&t=Z4LKsJi-FT9Yc1rE4wzZdQufSymSEd5z6mxoVPHGAmQ",
       "pronouns": "",
       "shortBio": "",
       "socials": [
         {
           "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/kinzi-c-30aa33210/",
+          "link": "https://www.linkedin.com/in/alyssa-pausanos-a847a8246/",
           "name": "LinkedIn"
         }
       ],
       "order": 4,
-      "title": "Master of Information Technology Student | Legal Translator | Project Manager"
+      "title": "Software Engineering Student"
     },
     "gwenny-warnick": {
       "bio": "",
@@ -1056,7 +1260,118 @@
             }
           ],
           "order": 1,
-          "title": "Chief bottle washer"
+          "title": "Organiser"
+        },
+        {
+          "name": "Sam Freeman",
+          "photo": "",
+          "photoUrl": "https://www.juliusspencer.co.nz/wp-content/uploads/2019/09/DSC01316-copy.jpg",
+          "socials": [
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "Mark Hine",
+          "photo": "",
+          "photoUrl": "https://www.juliusspencer.co.nz/wp-content/uploads/2019/09/DSC01297-copy.jpg",
+          "socials": [
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "Lutie Spencer",
+          "photo": "",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/devfest-auckland.appspot.com/o/lutie.png?alt=media",
+          "socials": [
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "Varshini Bhat",
+          "photo": "",
+          "photoUrl": "https://media.licdn.com/dms/image/D5603AQGHejZzXPH3dA/profile-displayphoto-shrink_800_800/0/1689933312344?e=1704931200&v=beta&t=cZmaMWGkPw2YbLeXBRM_gUzui7BzMaYK-hY5YjnclcY",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/varshini-kp-bhat/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "David Zhu",
+          "photo": "",
+          "photoUrl": "https://media.licdn.com/dms/image/D5603AQHXvx68K0fP-g/profile-displayphoto-shrink_800_800/0/1679961765881?e=1704931200&v=beta&t=mcgP4oAu2Pgnukni98xiDHiG7_nJqokiC_kW7am58qg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/davidyzhu/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "Eugene Chua",
+          "photo": "",
+          "photoUrl": "https://media.licdn.com/dms/image/D5603AQHXvx68K0fP-g/profile-displayphoto-shrink_800_800/0/1679961765881?e=1704931200&v=beta&t=mcgP4oAu2Pgnukni98xiDHiG7_nJqokiC_kW7am58qg",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/eugene-j-chua/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "Nikhil Sharma",
+          "photo": "",
+          "photoUrl": "https://media.licdn.com/dms/image/D5603AQHAuhR7YQTWig/profile-displayphoto-shrink_800_800/0/1684889873067?e=1704931200&v=beta&t=iLsf7Hitush_slAWgZHw4U6OUpNDv1U6eY5R922qqpU",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/nikhil-sharma-connect/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "Sebastian Pian",
+          "photo": "",
+          "photoUrl": "https://media.licdn.com/dms/image/D5603AQHYPoiBG88MQA/profile-displayphoto-shrink_800_800/0/1698829090898?e=1704931200&v=beta&t=YisfzgaE6Nhl9VyT0Z3KQik7-9g0Am-gpD842uPiLb4",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/sebastian-pian-9328b7112/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 2,
+          "title": "Volunteer"
+        },
+        {
+          "name": "Ara Samaniego",
+          "photo": "",
+          "photoUrl": "https://media.licdn.com/dms/image/C5603AQGtC589bj1Vtg/profile-displayphoto-shrink_800_800/0/1578950949521?e=1704931200&v=beta&t=YjEw2DOtISap70-Guq3lauePx_J9H7gauIt1AFfO468",
+          "socials": [
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/araceli-samaniego-phd-b5029a74/",
+              "name": "LinkedIn"
+            }
+          ],
+          "order": 2,
+          "title": "Volunteer"
         },
         {
           "name": "Dilum De Silva",
